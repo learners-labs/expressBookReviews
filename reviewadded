@@ -1,0 +1,20 @@
+curl --location --request PUT 'http://localhost:5000/customer/auth/review/2' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: connect.sid=s%3AN-RI2I3VPr7CIFFbGPU-0LPeplN6HjFI.jHVOLrTUuHZ6IKSyidzl9tXJw2SQxAKv%2FpxXGwnJmtc' \
+--data '{
+    "review": "test2"
+}'
+
+
+
+
+{
+    "message": "success",
+    "book": {
+        "author": "Hans Christian Andersen",
+        "title": "Fairy tales",
+        "reviews": {
+            "uswer": "test2"
+        }
+    }
+}
