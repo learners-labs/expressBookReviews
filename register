@@ -1,0 +1,11 @@
+curl --location 'http://localhost:5000/register' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "uswer",
+    "password": "password"
+}'
+
+
+{
+    "message": "User registered successfully"
+}

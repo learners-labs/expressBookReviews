@@ -1,0 +1,12 @@
+curl -s http://localhost:5000/author/Chinua Achebe
+
+{
+"books": [
+{
+"author": "Chinua Achebe",
+"title": "Things Fall Apart",
+"reviews": {}
+}
+],
+"message": "Books retrieved successfully"
+}

@@ -1,0 +1,10 @@
+curl -s http://localhost:5000/review/2
+
+{
+"books": {
+"2": {
+"reviews": {}
+}
+},
+"message": "Book reviews retrieved successfully"
+}

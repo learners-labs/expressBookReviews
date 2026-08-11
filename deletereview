@@ -1,0 +1,13 @@
+curl --location --request DELETE 'http://localhost:5000/customer/auth/review/2'
+
+
+
+
+{
+    "message": "Review of uswer user deleted successfully",
+    "book": {
+        "author": "Hans Christian Andersen",
+        "title": "Fairy tales",
+        "reviews": {}
+    }
+}
